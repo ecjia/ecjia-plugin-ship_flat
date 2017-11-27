@@ -49,7 +49,7 @@ Plugin Name: 市内快递
 Plugin URI: http://www.ecjia.com/plugins/ecjia.flat/
 Description: 固定运费的配送方式内容
 Author: ECJIA TEAM
-Version: 1.0.0
+Version: 2.0.0
 Author URI: http://www.ecjia.com/
 Plugin App: shipping
 */
