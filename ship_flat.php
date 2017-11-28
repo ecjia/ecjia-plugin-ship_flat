@@ -84,6 +84,5 @@ Ecjia_PluginManager::extend('ship_flat', function() {
 
 RC_Plugin::register_activation_hook(__FILE__, array('plugin_ship_flat', 'install'));
 RC_Plugin::register_deactivation_hook(__FILE__, array('plugin_ship_flat', 'uninstall'));
-RC_Hook::add_filter('shipping_factory_adapter_instance', array( 'plugin_ship_flat', 'adapter_instance' ), 10, 2);
 
 // end
