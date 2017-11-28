@@ -45,6 +45,7 @@
 //  ---------------------------------------------------------------------------------
 //
 defined('IN_ECJIA') or exit('No permission resources.');
+
 return array(
     'shipping_code' => 'ship_flat',
 	'insure' 		=> false,		/* 不支持保价 */
