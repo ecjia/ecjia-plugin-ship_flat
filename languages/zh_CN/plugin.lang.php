@@ -52,7 +52,9 @@ defined('IN_ECJIA') or exit('No permission resources.');
 return array(
     'flat'          => '市内快递',
     'flat_desc'     => '固定运费的配送方式内容',
-    'base_fee'      => '基本费用：',
+    'base_fee'      => '基本费用',
+	'pay_fee'       => '货到付款支付费用',
+	'free_money'    => '免费额度',
 );
 
 // end

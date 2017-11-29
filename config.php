@@ -57,6 +57,8 @@ return array(
 		
 	'forms' => array(
 			array('name' => 'base_fee', 'value' => 10),
+			array('name' => 'free_money', 'type' => 'text', 'value' => 0), /* 免费额度  */
+			array('name' => 'pay_fee', 'type' => 'text', 'value' => 0), /* 货到付款支付费用  */
 	),
 );
 
