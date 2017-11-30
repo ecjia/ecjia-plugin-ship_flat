@@ -98,13 +98,13 @@ class ship_flat extends ShippingAbstract
      */
     public function calculate($goods_weight, $goods_amount, $goods_number)
     {
-        if ($this->configure['free_money'] > 0 && $goods_amount >= $this->configure['free_money'])
+        if ($this->config['free_money'] > 0 && $goods_amount >= $this->config['free_money'])
         {
             return 0;
         }
         else
         {
-            return isset($this->configure['base_fee']) ? $this->configure['base_fee'] : 0;
+            return isset($this->config['base_fee']) ? $this->config['base_fee'] : 0;
         }
     }
 
