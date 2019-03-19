@@ -46,7 +46,7 @@
 //
 /*
 Plugin Name: 市内快递
-Plugin URI: http://www.ecjia.com/plugins/ecjia.flat/
+Plugin URI: http://www.ecjia.com/plugins/ecjia.ship_flat/
 Description: 固定运费的配送方式内容
 Author: ECJIA TEAM
 Version: 2.0.0
@@ -78,6 +78,7 @@ class plugin_ship_flat {
 }
 
 Ecjia_PluginManager::extend('ship_flat', function() {
+    RC_Locale::loadPluginTextdomain('ship_flat');
     require_once RC_Plugin::plugin_dir_path(__FILE__) . 'ship_flat.class.php';
     return new ship_flat();
 });
